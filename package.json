@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "consign": "^0.1.6",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.6",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #800020;
+}
+.body2{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e7ce;
+}
+header {
+    background-color: #f7e7ce;
+    padding: 10px 20px;
+    color: #800020;
+    display: flex;
+    align-items: center;
+}
+.header2{
+    background-color: #800020;
+    padding: 10px 20px;
+    color: #f7e7ce;
+    display: flex;
+    align-items: center;
+
+}
+.logo img {
+    max-height: 40px;
+}
+
+.container {
+    padding: 20px;
+    align-items: center;
+}
+
+.container form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #800020;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f7e7ce;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #800020;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7e7ce;
+    color: #800020;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #97304a;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    .container form {
+        max-width: 100%;
+    }
+}
+.anabutton {
+    text-align: center;    
+}
+.aebutton{
+    display: flex;
+    width: 80%;
+    max-width: 300px; 
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f7e7ce;
+    color: #800020;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.div3{
+    background-color: #800020;
+    padding: 9px 9px;
+    color: #f7e7ce;
+    display: flex;
+    align-items: center;
+    
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #800020;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
